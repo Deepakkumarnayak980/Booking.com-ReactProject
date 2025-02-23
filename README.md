@@ -1,4 +1,5 @@
 #install the React using Vite
+
 #insrall tailwind Css
 #install dayjs
 npx shadcn@canary init <component using shadcn>
