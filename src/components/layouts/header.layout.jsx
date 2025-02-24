@@ -21,7 +21,7 @@ function Header() {
           </Button>
         </div>
       </div>
-      <div className="container flex gap-1">
+      <div className="container flex gap-1 overflow-auto scrollbar-thin scrollbar-thumb-blue-500 scrollbar-track-blue-200">
         {SERVICE_LIST.map((item) => (
           <Button key={item.id} className={`bg-transparent shadow-none font-normal rounded-full hover:bg-white/10
           cursor-pointer flex items-center justify-between gap-2 px-6 h-11 ${item.active && 'border border-white'}`}>
