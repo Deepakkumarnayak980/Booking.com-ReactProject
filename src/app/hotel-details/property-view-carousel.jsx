@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   Carousel,
   CarouselContent,
@@ -8,7 +8,9 @@ import {
 } from '@/components/ui/carousel';
 
 
-function PropertyViewCarousel({images}) {
+
+
+function PropertyViewCarousel({ images }) {
   return (
     <section>
       <Carousel
@@ -35,7 +37,6 @@ function PropertyViewCarousel({images}) {
       </Carousel>
     </section>
   );
-};
+}
 
-
-export default PropertyViewCarousel
+export default PropertyViewCarousel;
