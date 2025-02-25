@@ -19,10 +19,10 @@ function HotelDetails() {
             <div className='flex gap-6  mt-6'>
                 <div className='flex-1 space-y-8'>
                     <HotelMetaDetails hotel={hotelData.hotel } info={hotelInfo} />
-                    <HotelRoomsPicker />
+                    <HotelRoomsPicker rooms={hotelData.rooms} />
                     <HotelPolicy />
                 </div>
-                <aside className='w-[340px] shrink-0 p-4 border border-border shadow-md rounded-xl'>
+                <aside className='w-[340px] shrink-0 p-4 border border-border shadow-md rounded-xl sticky top-6'>
                     <HotelCheckoutCard />
                 </aside>
             </div>
