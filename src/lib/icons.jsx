@@ -1,4 +1,4 @@
-import { Bed, CarFront, CarTaxiFront, Heart, Facebook, FerrisWheel, Gem, Plane, Star,Check, CircleCheck, Zap, Info } from "lucide-react"
+import { Bed, CarFront, CarTaxiFront, Heart, Facebook, FerrisWheel, Gem, Plane, Star,Check, CircleCheck, Zap, Info, Eye } from "lucide-react"
 
 
 export default {
@@ -78,6 +78,7 @@ export default {
     circleCheck: CircleCheck,
     zap: Zap,
     info: Info,
+    eye:Eye
   
 
 }
