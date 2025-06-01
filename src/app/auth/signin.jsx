@@ -26,7 +26,8 @@ const SignUp = () => {
     console.log('Got the data...', data);
   };
 
-  const handleHidePassword = () => {
+  const handleHidePassword = (e) => {
+    e.preventDefault();
     setShowPassword((prev) => !prev);
   };
 
@@ -65,7 +66,7 @@ const SignUp = () => {
                       className="h-10 rounded"
                     />
                   </FormControl>
-                  <Button
+                  <Button 
                     type="button"
                     onClick={handleHidePassword}
                    
