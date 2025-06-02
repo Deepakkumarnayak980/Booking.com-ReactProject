@@ -14,7 +14,7 @@ const DataSelectInput = ({ form }) => {
         render={({ field }) => (
           <>
             <PopoverTrigger asChild>
-              <FormItem className="flex items-center px-4 py-3.5 gap-2 rounded bg-background lg:min-w-[300px] cursor-pointer">
+              <FormItem className="flex items-center justify-between px-4 py-3.5 rounded-lg bg-background border border-border min-w-80 cursor-pointer">
                 <FormControl>
                   <div role="button" className="flex items-center">
                     <Icon
@@ -26,13 +26,13 @@ const DataSelectInput = ({ form }) => {
                       <p className="text-sm">
                         {field?.value?.from
                           ? dayjs(field.value.from).format('ddd D MMM')
-                          : 'Check-in date'}
+                          : ' Check-in'}
                       </p>
-                      <span aria-hidden>-</span>
+                      <span aria-hidden> - </span>
                       <p className="text-sm">
                         {field?.value?.to
                           ? dayjs(field.value.to).format('ddd D MMM')
-                          : 'Check-out date'}
+                          : ' Check-out '}
                       </p>
                     </div>
                   </div>

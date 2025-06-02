@@ -13,7 +13,7 @@ function LocationInput({ form }) {
     return (
         <Popover>
             <PopoverTrigger asChild>
-                <div className='flex items-center px-4 py-2 gap-2 rounded bg-background lg:min-w-[360px] cursor-pointer'>
+                <div className='flex items-center px-2 py-2 gap-2 rounded bg-background lg:min-w-[360px] cursor-pointer'>
                     <Icon icon="bed" size="24" className="text-muted-foreground shrink-0" />
                     <FormField
                         control={form.control}
@@ -47,7 +47,7 @@ function LocationInput({ form }) {
             onOpenAutoFocus={(e) =>e.preventDefault()}
             >
                 <div className='p-3'>
-                    <p className="text-sm font-semibold text-gray-700 mb-2">Popular destinations nearby</p>
+                    <p className="text-sm font-semibold text-black mb-2">Popular destinations nearby</p>
                     <div className="max-h-[300px] overflow-y-auto">
                         {Array.isArray(DESTINATIONS) && DESTINATIONS.length > 0 ? (
                             DESTINATIONS.map((destination, index) => (
