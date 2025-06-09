@@ -6,17 +6,19 @@ import HotelDetails from './hotel-details'
 import { SignInPage, SignUpPage } from './auth'
 import SignIn from './auth/signin'
 import Home from './home'
+import SearchPage from './search'
 
 function App() {
   return (
     <div>
         
         <Header/>
-        <Home />
+        {/* <Home /> */}
         {/* <HotelDetails/> */}
        
         {/* <SignInPage /> */}
        {/* <SignUpPage  />  */}
+       <SearchPage />
         <Footer />
     </div>
   )

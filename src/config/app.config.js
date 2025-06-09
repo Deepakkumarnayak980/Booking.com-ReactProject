@@ -1,3 +1,5 @@
+import { Label } from "@radix-ui/react-label";
+
 export const SERVICE_LIST = [
   {
     id: 1,
@@ -139,3 +141,60 @@ export const DESTINATIONS = [
   { city: 'Chennai', country: 'India' },
   { city: 'Pune', country: 'India' }
 ];
+
+export const STAR_FILTERS=[
+  {
+    id:1 ,
+    label:'5 Star' ,
+    value: 5
+  },
+    {
+    id: 2,
+    label: '4 Star',
+    value:4 
+  },
+    {
+    id:3 ,
+    label: '3 Star' ,
+    value: 3
+  },
+    {
+    id: 4 ,
+    label: '2 Star',
+    value: 2
+  },
+    {
+    id:5 ,
+    label: '1 Star',
+    value:  1
+  }
+
+]
+export const PRICE_FILTERS=[
+  {
+    id:1 ,
+    label:'500-1000' ,
+    value: 5
+  },
+    {
+    id: 2,
+    label: '1000-1500',
+    value:4 
+  },
+    {
+    id:3 ,
+    label: '1500-2000' ,
+    value: 3
+  },
+    {
+    id: 4 ,
+    label: '2000-3000',
+    value: 2
+  },
+    {
+    id:5 ,
+    label: '3000-5000',
+    value:  1
+  }
+
+]
