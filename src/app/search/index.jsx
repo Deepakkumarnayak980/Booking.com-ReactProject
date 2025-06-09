@@ -34,7 +34,7 @@ const SearchPage = () => {
           <SortFilter />
         </div>
         <Hotels error={error} isLoading={isLoading} data={hotels} />
-         <PaginationFilter />
+         <PaginationFilter />    
       </section>
     </div>
   )
